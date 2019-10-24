@@ -5,7 +5,7 @@
 		"plugin:@typescript-eslint/recommended",
 		"prettier/@typescript-eslint",
 		"plugin:prettier/recommended",
-		"standard",
+		"standard"
 	],
 	"plugins": ["@typescript-eslint", "prettier"],
 	"env": {
@@ -26,12 +26,6 @@
 		"quotes": ["error", "single"],
 		"newline-before-return": "error",
 		"padding-line-between-statements": ["error", { "blankLine": "always", "prev": "*", "next": "return" }]
-	},
-	"settings": {
-		"react": {
-			"pragma": "React",
-			"version": "detect"
-		}
 	},
 	"parser": "@typescript-eslint/parser"
 }
